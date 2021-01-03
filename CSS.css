@@ -1,0 +1,82 @@
+td{
+    height: 100px;
+    width: 100px;
+}
+.vertical{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.horizental{
+    border-bottom: 1px solid black;
+}
+table{
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+}
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+.g-title p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-bottom: 3px solid #F1F1F1;
+    width: 30%;
+    padding-bottom: 20px;
+}
+.blog{
+    border: 13px solid #c7c7c7;
+    margin-top: 425px;
+    margin-left: 5% ;
+    margin-right: 5%;
+}
+.blog h4{
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.blog h1 {
+    text-align: left;
+}
+.blog .top-border{
+    border-left: 4px solid #cfcfcf ;
+    margin-left: 45px;
+    margin-right: 90px;
+    padding-left: 5px;
+    
+}
+.blog p,h4,h1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* Flaired edges, by Tomas Theunissen */
+
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+
+
